@@ -1,0 +1,28 @@
+[0:06] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:09] AGENT (other side): Thanks for calling Pivot Point Orthopedics.
+[0:12] AGENT (other side): Part of Pretty Good AI. May I help you today?
+[0:15] BOT (patient): I'd like to schedule an appointment, please.
+[0:25] AGENT (other side): I see you're calling from the number we have on file. Am I speaking with Drew?
+[0:26] BOT (patient): Yes.
+[0:32] AGENT (other side): Please provide your date of birth.
+[0:34] BOT (patient): July fourth, two thousand.
+[0:46] AGENT (other side): What kind of appointment do you need? For example, is this for a new concern, a follow-up, a routine checkup? Or something else?
+[0:48] BOT (patient): I need to book a new appointment.
+[0:57] AGENT (other side): Is this your first visit with us? Or have you seen someone here before for this concern?
+[1:00] BOT (patient): I've seen someone here before for this concern.
+[1:09] AGENT (other side): Is this appointment a follow-up to your previous visit? Or are you looking to see a different provider this time?
+[1:11] BOT (patient): It's a follow-up to my previous visit.
+[1:21] AGENT (other side): Do you have a specific provider you'd like to see for your follow-up, or are you open to any available provider?
+[1:24] BOT (patient): I’m open to any available provider.
+[1:44] AGENT (other side): We have several follow-up openings on Monday, October twenty six, with Doogee Houser and Kelly Noble MD Do you have a preference between those providers or would you like the soonest available slot?
+[1:47] BOT (patient): I would like to book an appointment for Monday morning, please.
+[1:56] AGENT (other side): The earliest available slot on morning is at ten AM with Dudeehauser. Would you like to book that time?
+[1:59] BOT (patient): Actually, could I switch that to Thursday afternoon instead?
+[2:16] AGENT (other side): On Thursday, October twenty ninth, there is a one PM slot with Kelly Noble MD. Would you like to book that appointment?
+[2:19] BOT (patient): Could we switch that back to Monday at ten AM, please?
+[2:30] AGENT (other side): The ten AM slot on Monday, October twenty sixth with Doogeehauser is still available. Would you like to book that appointment?
+[2:32] BOT (patient): Yes, please book that appointment.
+[2:56] AGENT (other side): Your follow-up appointment is set for Monday, October twenty sixth at ten AM with Dugie Hauser at Pivot Point Orthopedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Would you like me to send you a text message with these appointment details?
+[3:01] BOT (patient): Yes, please send me a text message with those details. Thank you!
+[3:08] AGENT (other side): You're all set. If you need anything else, just let us know. Have a great day.
+[3:11] BOT (patient): Thank you! You too. Goodbye!

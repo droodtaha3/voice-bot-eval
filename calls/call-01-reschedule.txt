@@ -1,0 +1,26 @@
+[0:04] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:12] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[0:19] BOT (patient): Hi, I have an upcoming appointment that I need to reschedule to a different day or time later this week. Can you help me with that?
+[0:26] AGENT (other side): I see you're calling from the number we have on file. Am I speaking with Drew?
+[0:28] BOT (patient): Yes, you are speaking with Drood.
+[0:32] AGENT (other side): Please provide your date of birth.
+[0:35] BOT (patient): July fourth, two thousand.
+[0:54] AGENT (other side): You have an appointment scheduled for Monday, October twenty sixth at eleven AM with Kelly Noble, MD at Nashville, two two zero Athens Way. Is this the appointment you want to reschedule?
+[0:58] BOT (patient): Yes, that's the appointment I need to reschedule.
+[1:08] AGENT (other side): Do you have a preferred day or time later this week for your new appointment? Or are you open to any available slots
+[1:12] BOT (patient): I'm open to any available slots later this week. What do you have?
+[1:19] AGENT (other side): Let me check the schedule for available appointment times later this week. One moment.
+[1:33] AGENT (other side): The next opening is Tuesday, October twenty seventh at eleven AM with Kelly Noble, MD at Would you like to move your appointment to that time? If not, I also see another slot later that day.
+[1:38] BOT (patient): I can take the Tuesday, October twenty seventh at eleven AM slot. Thank you!
+[1:50] AGENT (other side): Before I move your appointment, can you tell me the reason you need to reschedule? For example, is it a schedule conflict illness or something else?
+[1:53] BOT (patient): I have a scheduling conflict that I need to clear up.
+[2:07] AGENT (other side): Thanks for letting me know. To confirm, you'd like to move your appointment to Tuesday, October twenty seventh at eleven AM with Kelly Noble MD at Nashville. Is that correct?
+[2:10] BOT (patient): Yes, that's correct. Thank you!
+[2:27] AGENT (other side): Your appointment is now set for Tuesday, October twenty seventh. At eleven AM with Kelly Noble, MD in Nashville. Would you like me to send you a text message with these details?
+[2:31] BOT (patient): Yes, please send me a text message with the details. Thank you!
+[2:41] AGENT (other side): You'll get a text with your updated appointment details soon. Is there anything else I can help you with today? You're all set.
+[2:43] AGENT (other side): If you need anything else, just let me know.
+[2:47] BOT (patient): Thank you for your help! I appreciate it. Goodbye!
+[2:52] AGENT (other side): Take care. Goodbye.
+[2:53] BOT (patient): Goodbye!
+[2:56] AGENT (other side): Goodbye.

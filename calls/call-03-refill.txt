@@ -1,0 +1,15 @@
+[0:04] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:12] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[0:17] BOT (patient): Hi, I’d like to request a refill of my meloxicam 15 milligram prescription for knee pain.
+[0:24] AGENT (other side): See you're calling from the number we have on file.
+[0:25] AGENT (other side): Am I speaking with Drew?
+[0:27] BOT (patient): Yes.
+[0:31] AGENT (other side): Please provide your date of birth.
+[0:33] BOT (patient): July fourth, two thousand.
+[0:50] AGENT (other side): I don't see any medications on your chart that I can refill right now. If you'd like to speak with our support team about this, just let me know.
+[0:56] BOT (patient): I was sure it was prescribed. Could you send a request to the doctor's office anyway? How long does that usually take?
+[1:13] AGENT (other side): I sent your request to the clinic support team. They'll review it and get back to you as soon as they can, usually within one business day.
+[1:15] AGENT (other side): Is there anything else I can help you with?
+[1:20] BOT (patient): No, that's all for now. Thank you for your help! Goodbye.
+[1:25] AGENT (other side): Welcome. Take care.
+[1:28] BOT (patient): Thank you! You too!

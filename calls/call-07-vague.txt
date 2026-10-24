@@ -1,0 +1,26 @@
+[0:06] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:12] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[0:15] BOT (patient): Hi, I have a knee thing that has been bothering me.
+[0:20] AGENT (other side): Sorry to hear your knee is bothering you.
+[0:24] AGENT (other side): Would you like to schedule an appointment to have it checked out?
+[0:26] BOT (patient): Yes, I’d like to schedule an appointment.
+[0:34] AGENT (other side): I see you're calling from the number we have on file. Am I speaking with Drew?
+[0:36] BOT (patient): Yes.
+[0:40] AGENT (other side): Please provide your date of birth.
+[0:43] BOT (patient): July fourth, two thousand.
+[0:59] AGENT (other side): For your knee issue, is this a new problem? A follow-up from a previous visit or something urgent that needs to be seen right away? This will help me book the right type of appointment for you.
+[1:01] BOT (patient): It's a new problem.
+[1:10] AGENT (other side): You have a specific provider you'd like to see? Or are you open to the first available appointment?
+[1:13] BOT (patient): I’m open to the first available appointment.
+[1:21] AGENT (other side): Let me check the schedule for the first available appointment for your new knee problem. One moment.
+[1:24] BOT (patient): Sure, take your
+[1:25] AGENT (other side): Soonest openings are on
+[1:26] BOT (patient): I'm listening.
+[1:42] AGENT (other side): The soonest available appointment is Monday, October twenty sixth at nine AM with Kelly Noble. MD. Would you like to book that time?
+[1:44] BOT (patient): Yes, I would like to book that time.
+[2:07] AGENT (other side): Your appointment is set for Monday, October twenty sixth at nine AM. With Kelly Noble, MD at Pivot Point Orthopaedics. Please bring your photo ID, insurance card, a list of your current medications, and any imaging discs you have. Would you like me to send you a text message with these appointment details?
+[2:11] BOT (patient): Yes, please send me a text message with those details.
+[2:21] AGENT (other side): You should get a text with your appointment details soon. There anything else I can help you with today?
+[2:24] BOT (patient): No, that's all I needed. Thank you!
+[2:29] AGENT (other side): You're all set. Have a great day.
+[2:32] BOT (patient): Thank you, you too! Goodbye.

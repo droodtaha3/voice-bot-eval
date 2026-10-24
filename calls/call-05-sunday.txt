@@ -1,0 +1,27 @@
+[0:06] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:09] BOT (patient): That’s fine. I’d like
+[0:12] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. May I help you today?
+[0:15] BOT (patient): Yes, I’d like to book an appointment.
+[0:25] AGENT (other side): I see you're calling from the number we have on file. Am I speaking with Drew?
+[0:26] BOT (patient): Yes.
+[0:30] AGENT (other side): Please provide your date of birth.
+[0:33] BOT (patient): July fourth, two thousand.
+[0:42] AGENT (other side): Thanks, Drew. What type of orthopedic issue or concern would you like to be seen for?
+[0:47] BOT (patient): I'm looking to book an appointment for an evaluation. Is there availability this Sunday at 10 AM?
+[1:02] AGENT (other side): I'll check the schedule for you once I have the details I need. Can you tell me a bit more about the reason for your evaluation? For example, is this for a new injury, a follow-up, or a general checkup?
+[1:08] BOT (patient): It's for a general checkup. Can you let me know if you have availability this Sunday at 10 AM?
+[1:17] AGENT (other side): Thanks for clarifying. To confirm, you'd like to book a general office visit for a routine checkup.
+[1:17] AGENT (other side): Is that correct?
+[1:23] BOT (patient): Yes, that’s correct. Do you have availability this Sunday at 10 AM?
+[1:38] AGENT (other side): Let me check the schedule for this Sunday and see if there's an opening at ten AM. One moment. There are no openings this Sunday at ten AM. The soonest available slots are on Monday, October twenty sixth.
+[1:40] AGENT (other side): Would you like to hear about those times?
+[1:45] BOT (patient): I’m actually looking for weekend options. Are there any weekend appointments available?
+[1:52] AGENT (other side): I'll check for the next available weekend openings. One moment.
+[1:54] BOT (patient): Sure, thank you.
+[2:01] AGENT (other side): There are no weekend Would you like to book one of the Monday morning slots? Or should I keep looking for other days?
+[2:07] BOT (patient): No, I would prefer to wait for a weekend option. Thank you for checking, though.
+[2:19] AGENT (other side): You're welcome. If you'd like, I can check again for weekend openings in the future. Or you can call back anytime. Let me know if there's anything else I can help with.
+[2:25] BOT (patient): That sounds good. I’ll call back later for weekend openings. Thank you for your help! Goodbye.
+[2:30] AGENT (other side): Goodbye, Drill. Take care.
+[2:31] BOT (patient): Goodbye!
+[2:35] AGENT (other side): Take care

@@ -1,0 +1,22 @@
+[0:04] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:13] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[0:17] BOT (patient): I’d like to schedule a check-up appointment for next week, please.
+[0:24] AGENT (other side): I see you're calling from the number we have on file.
+[0:25] AGENT (other side): Am I speaking with Drew?
+[0:28] BOT (patient): Yes.
+[0:32] AGENT (other side): Please provide your date of birth.
+[0:36] BOT (patient): July fourth, two thousand.
+[0:45] AGENT (other side): Just to confirm, is this checkup for a general office visit or routine care?
+[0:49] BOT (patient): It's for a routine care check-up.
+[0:57] AGENT (other side): Do you have a specific provider you'd like to see, or are you open to any available provider?
+[1:00] BOT (patient): I'm open to any available provider.
+[1:12] AGENT (other side): I found openings next week with Kelly Noble, MD and Z Big Unilecosto. MD. Would you prefer a morning or afternoon appointment?
+[1:15] BOT (patient): I prefer a morning appointment, please.
+[1:26] AGENT (other side): The earliest morning slot I see is Monday, October twenty sixth at eleven AM with Kelly Noble, MD. Would you like to book that time?
+[1:33] BOT (patient): Yes, I'll take that appointment with Kelly Noble, MD, on Monday, October twenty sixth at eleven AM.
+[1:56] AGENT (other side): Your appointment is set for Monday, October twenty sixth at eleven AM with Kelly Noble. MD at Pivot Point Orthopedics. Please bring your photo ID, insurance card, and a list of your current medications. Would you like me to send you a text message with these appointment details?
+[2:00] BOT (patient): Yes, that would be great. Thank you!
+[2:10] AGENT (other side): You'll get a text with your appointment details soon. Is there anything else I can help you with today?
+[2:15] BOT (patient): No, that’s all I need. Thank you for your help!
+[2:20] AGENT (other side): Have a great day.
+[2:23] BOT (patient): You too! Goodbye.

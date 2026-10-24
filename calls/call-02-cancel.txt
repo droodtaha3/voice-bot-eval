@@ -1,0 +1,18 @@
+[0:04] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:13] AGENT (other side): Thanks for calling Pivot Point Orthopedics. Part of Pretty Good AI. How may I help you today?
+[0:15] BOT (patient): I need to cancel my upcoming appointment.
+[0:25] AGENT (other side): I see you're calling from the number we have on file. Am I speaking with Drew?
+[0:27] BOT (patient): Yes.
+[0:33] AGENT (other side): Please provide your date of birth.
+[0:35] BOT (patient): July fourth, two thousand.
+[0:52] AGENT (other side): You have an appointment with Kelly Noble, MD on Tuesday, October twenty seventh. Is this the appointment you want to cancel?
+[0:55] BOT (patient): Yes, I want to cancel that appointment.
+[1:01] AGENT (other side): Can you tell me the reason you'd like to cancel this appointment?
+[1:04] BOT (patient): I’d prefer not to provide a reason. I just need to cancel it.
+[1:16] AGENT (other side): Understood. To confirm, you want to cancel your appointment with Kelly Noble, MD on two October twenty seventh. Is that correct?
+[1:18] BOT (patient): Yes, that's correct.
+[1:29] AGENT (other side): Your appointment with Kelly Noble, MD on Tuesday, twenty seventh has been canceled.
+[1:31] AGENT (other side): Is there anything else I can help you with today?
+[1:34] BOT (patient): No, that's all for now. Thank you!
+[1:39] AGENT (other side): You're all set. Have a great day.
+[1:42] BOT (patient): Thank you, you too! Goodbye!

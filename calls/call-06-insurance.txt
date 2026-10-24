@@ -1,0 +1,18 @@
+[0:06] AGENT (other side): This call may be recorded for quality and training purposes.
+[0:09] BOT (patient): Okay. How
+[0:12] AGENT (other side): Thanks for calling Pivot Point Orthopaedics. Part of Pretty Good AI. How may I help you today?
+[0:17] BOT (patient): Hi, I wanted to ask if your clinic accepts Blue Cross Blue Shield.
+[0:26] AGENT (other side): Pivot Point Orthopedics welcomes new patients and accepts most insurance plans, including Blue Cross Blue Shield.
+[0:31] AGENT (other side): Would you like help with scheduling an appointment or updating your insurance information?
+[0:36] BOT (patient): Not right now, but do I need a referral to see a specialist?
+[0:43] AGENT (other side): You usually do not need a referral to see our orthopedic specialists.
+[0:52] AGENT (other side): But some insurance plans may require one. It's a good idea to check with your insurance provider to be sure. Have more questions or wanna book an appointment,
+[0:53] AGENT (other side): just let me know.
+[1:00] BOT (patient): Thanks for the information. Would my Blue Cross Blue Shield plan cover a first visit, and what would a typical copay be?
+[1:19] AGENT (other side): Coverage and copay amounts can vary depending on your specific Blue Cross Blue Shield plan. For exact details about your coverage and co pay for a first visit, it's best to contact your insurance provider directly. If you'd like, I can help update your insurance information on file or assist with scheduling.
+[1:24] BOT (patient): I understand. Who should I call to find out the specifics about my coverage?
+[1:40] AGENT (other side): You should call the member services number on the back of your Blue Cross Blue Shield insurance card. Their team can give you details about your coverage, copays, and any referral requirements. If you need help with anything else, just let me know.
+[1:44] BOT (patient): Thank you for the information! That's helpful. Goodbye!
+[1:49] AGENT (other side): You're welcome. Have a great day.
+[1:50] BOT (patient): You too!
+[1:54] AGENT (other side): Take care.
