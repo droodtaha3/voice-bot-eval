@@ -1,6 +1,7 @@
 Voice Patient Simulator
 
-This is a Python voice bot that phones a clinic's AI receptionist, plays a patient, and records and transcribes every call. It is built on LiveKit Agents in pipeline mode, which means listening, thinking, and talking are three separate steps. Deepgram turns the other side's speech into text, OpenAI's GPT-4o-mini decides what the patient says next, and a voice model speaks the answer. The phone call itself goes from my laptop to LiveKit Cloud and then through a Twilio SIP trunk to the phone network.
+This is a Python voice bot that phones a clinic's AI receptionist, plays a patient, and records and transcribes every call. It is built on LiveKit Agents in pipeline mode, which means listening, thinking, and talking are three separate steps. Deepgram turns the other side's speech into text, OpenAI's GPT-4o-mini decides what the patient says next, and a voice model speaks the answer. The phone call itself goes from my laptop to LiveKit Cloud and then through a Twilio SIP trunk to the phone network. All of the test calls were made from one phone number, 
++15154364932.
 
 To set it up, you need Python 3.10 or newer. Make a virtual environment and install the packages with these commands, which are for Windows PowerShell:
 
