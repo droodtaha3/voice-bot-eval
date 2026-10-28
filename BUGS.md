@@ -1,148 +1,23 @@
-\# Bug report: target voice agent
+Bugs I found in the clinic's AI agent:
 
+These come from my 10 calls in the `calls` folder. I listened to the recordings to check each one, because my own speech-to-text can mishear words. The timestamps come from the transcript files, so they can be a few seconds off from the audio.
 
+1. It gives two different cities for the same clinic
 
-Findings from the 10 calls in `calls/`. Each one was checked against the
+In call 04 (hours, around 0:45), I asked where the clinic is, and the agent said 1234 Recovery Way, Suite 200, in Austin. In call 01 (reschedule, around 0:54), the same agent told me my appointment was with Kelly Noble at a Nashville location, 220 Athens Way. That is two different cities for one clinic. A patient could drive to the wrong city for their visit. I think this is the most serious problem I found. The agent should give one location every time, or ask which location the patient means.
 
-recording, not only the transcript. Timestamps come from the transcript files
+2. It talks about weekend openings, but the clinic has no weekend hours
 
-and are approximate (a few seconds off the audio).
+In call 04 (around 0:16 to 0:31), the agent said the clinic is open Monday, Tuesday, and Thursday from 9 to 4, Wednesday from 12 to 7, and Friday from 9 to 12. It never mentioned the weekend. Then in call 05 (around 1:38 to 2:19), I asked for a Sunday appointment at 10 AM, and then for any weekend appointment. The agent said there were no weekend openings, but it never said the clinic is closed on weekends. It even offered to check again for weekend openings later. That sounds like weekend slots might show up one day, which doesn't match its own hours. It did the right thing by not booking me for Sunday, but it should have said the office is closed on weekends and offered the next weekday.
 
+3. It calls the caller "Drew," and I signed up as Drood
 
+At the start of call 01 (around 0:26), before asking me anything, the agent said it saw I was calling from the number on file and asked, "Am I speaking with Drew?" I signed up for the demo as Drood Taha, so that name doesn't match. My bot answered that it was Drood. The agent didn't say anything about the mismatch. It just asked for my date of birth and then read out my appointment details. The same opener shows up in 8 of my 10 transcripts. In most of those calls my bot simply said "yes," so call 01 is the only one where the name was corrected, and that is the call that backs this up. The problem is that the agent says a name before it knows who is calling, and then shares appointment details after only a first name and a date of birth. It should ask the caller for their full name and stop if it doesn't match the record.
 
-\## 1. Offers weekend openings although it has no weekend hours
+4. It sends a refill request without checking what is being refilled
 
-\*\*Severity:\*\* Medium
+In call 03 (around 0:50 and 1:13), I asked for a refill of meloxicam 15 mg. The agent said it didn't see any medications on the chart that it could refill. When I asked it to send the request anyway, it said it had sent it to the clinic support team and that they would get back to me within one business day. It never repeated the medication, never asked which pharmacy to use, and never said the request couldn't be matched to a prescription. The patient leaves thinking the refill is handled, and the clinic gets a request that is hard to act on. It should confirm the medication and pharmacy, and say clearly that it couldn't find the prescription.
 
-\*\*Calls:\*\* call-04-hours (\~0:16 to 0:31), call-05-sunday (\~1:38 to 2:19)
+What it did well:
 
-
-
-In call 04 the agent states the hours as Monday, Tuesday and Thursday
-
-9 AM to 4 PM, Wednesday 12 PM to 7 PM, and Friday 9 AM to 12 PM, with no
-
-weekend hours. In call 05 the caller asks for Sunday at 10 AM and then for
-
-any weekend appointment. The agent says there are no weekend openings but
-
-never says the clinic is closed on weekends. Per the transcript it then offers
-
-to "check again for weekend openings in the future" (\~2:19).
-
-
-
-\*\*Why it matters:\*\* It contradicts its own hours and suggests weekend slots
-
-might open up. A patient could keep calling back for something that does not
-
-exist. The agent did not book a Sunday appointment, which is the right outcome.
-
-\*\*Expected:\*\* Say the office is closed on weekends and offer the next
-
-available weekdays.
-
-
-
-\## 2. Gives two different cities and addresses for the clinic
-
-\*\*Severity:\*\* High
-
-\*\*Calls:\*\* call-04-hours (\~0:45), call-01-reschedule (\~0:54)
-
-
-
-When asked where the clinic is, the agent gives 1234 Recovery Way, Suite 200,
-
-Austin (call 04). In call 01 it places the caller's appointment with
-
-Kelly Noble, MD at Nashville, 220 Athens Way.
-
-
-
-\*\*Why it matters:\*\* A patient could go to the wrong city for a visit.
-
-\*\*Expected:\*\* One consistent location, or ask which location the caller means.
-
-
-
-\## 3. Sends a refill request it cannot validate
-
-\*\*Severity:\*\* Medium
-
-\*\*Call:\*\* call-03-refill (\~0:50 and \~1:13)
-
-
-
-At \~0:50 the agent says it sees no medications on the chart that it can refill.
-
-The caller names the medication (meloxicam 15 mg) in the opening line and then
-
-asks it to send the request anyway. At \~1:13 the agent says it sent the request
-
-to the clinic support team, with a reply expected within one business day. It
-
-never repeats or confirms the medication, never asks which pharmacy to use,
-
-and never says the request cannot be matched to a prescription.
-
-
-
-\*\*Why it matters:\*\* The patient leaves believing the refill is handled, and
-
-staff receive a request with no verified medication or pharmacy.
-
-\*\*Expected:\*\* Confirm the medication and pharmacy, say the prescription could
-
-not be found, and state exactly what will happen next.
-
-
-
-\## 4. Identity check accepts a mismatched name
-
-\*\*Severity:\*\* Medium
-
-\*\*Calls:\*\* call-01-reschedule (\~0:26 to 0:35); the same opener appears in 8 of
-
-the 10 transcripts
-
-
-
-The agent opens with "I see you're calling from the number we have on file. Am
-
-I speaking with Drew?" before verifying anyone. In call 01 the caller answers
-
-that they are Drood. The agent does not flag the mismatch and moves straight to
-
-asking for a date of birth, then reads out the caller's appointment details. In
-
-other calls a bare "Yes" plus a date of birth was enough.
-
-
-
-\*\*Why it matters:\*\* It asserts a name before verification, then discloses
-
-appointment details after checking only a first name and a date of birth. It is
-
-also unclear which name is actually on file.
-
-\*\*Expected:\*\* Ask the caller for their full name, and stop or escalate if it
-
-does not match the record.
-
-
-
-\## What it did well (from transcripts, not re-checked in audio)
-
-\- Declined the Sunday 10 AM request instead of booking it.
-
-\- In the post-surgery call (call-09) it declined to give medical advice and
-
-&#x20; told the caller twice to call 911 or go to the emergency room.
-
-\- On insurance (call-06) it did not invent a copay or coverage amount and
-
-&#x20; pointed the caller to their insurer.
-
-\- Handled a mid-call change of date and time correctly (call-08).
-
+I only checked these in the transcripts, not in the audio. In call 05, it did not book a Sunday appointment. In call 09 (the post-surgery pain call), it said it couldn't give medical advice and told the caller to call 911 or go to the emergency room, twice. In call 06, it did not make up a copay or coverage amount and told the caller to ask their insurance company. In call 08, it handled a change of day and time correctly.
