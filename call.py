@@ -28,7 +28,18 @@ async def main(phone_number: str, scenario: str):
     await lkapi.aclose()
 
 
+def print_usage():
+    names = list(SCENARIOS)
+    print("Usage: python call.py +1XXXXXXXXXX scenario_name\n")
+    print("Here are the available scenarios:")
+    for name in names:
+        print(f"  - {name}")
+    if names:
+        print(f"\nExample:\n  python call.py +15551234567 {names[0]}")
+
+
 if __name__ == "__main__":
     if len(sys.argv) < 3:
-        sys.exit("Usage: python call.py +1XXXXXXXXXX scenario_name")
+        print_usage()
+        sys.exit(1)
     asyncio.run(main(sys.argv[1], sys.argv[2]))
